@@ -1,0 +1,51 @@
+/* BUTON PRINCIPAL */
+.primary-btn {
+    background-color: #6e0f1a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* CARD */
+.card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-btn {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #6e0f1a;
+    color: white;
+    padding: 8px 15px;
+}
+
+/* BACK TO TOP */
+#backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #6e0f1a;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    display: none;
+}

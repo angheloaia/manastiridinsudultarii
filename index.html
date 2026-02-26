@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mănăstiri din Sudul Țării</title>
+
+    <!-- Fonturi -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="components.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="main-header">
+    <div class="logo">Mănăstiri din Sudul Țării</div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="cozia.html">Cozia</a></li>
+            <li><a href="tismana.html">Tismana</a></li>
+            <li><a href="lainici.html">Lainici</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Spiritualitatea Ortodoxă din Sudul României</h1>
+    <button class="primary-btn" onclick="window.location.href='cozia.html'">
+        Descoperă mai mult
+    </button>
+</section>
+
+<!-- CARDURI -->
+<section class="cards">
+
+    <!-- COZIA -->
+    <div class="card fade-in">
+        <img src="cozia.jpg" alt="Mănăstirea Cozia">
+        <h3>Mănăstirea Cozia</h3>
+        <p>Mănăstire istorică situată pe Valea Oltului, ctitorie a lui Mircea cel Bătrân.</p>
+        <a href="cozia.html" class="card-btn">Vezi mai mult</a>
+    </div>
+
+    <!-- TISMANA -->
+    <div class="card fade-in">
+        <img src="images/tismana.jpg" alt="Mănăstirea Tismana">
+        <h3>Mănăstirea Tismana</h3>
+        <p>Una dintre cele mai vechi mănăstiri din Țara Românească, fondată în secolul XIV.</p>
+        <a href="tismana.html" class="card-btn">Vezi mai mult</a>
+    </div>
+
+    <!-- LAINICI -->
+    <div class="card fade-in">
+        <img src="images/lainici.jpg" alt="Mănăstirea Lainici">
+        <h3>Mănăstirea Lainici</h3>
+        <p>Mănăstire situată în Defileul Jiului, important centru duhovnicesc.</p>
+        <a href="lainici.html" class="card-btn">Vezi mai mult</a>
+    </div>
+
+</section>
+
+<!-- BACK TO TOP -->
+<button id="backToTop">↑</button>
+
+<!-- JS -->
+<script src="app.js"></script>
+<script src="animations.js"></script>
+
+</body>
+</html>
